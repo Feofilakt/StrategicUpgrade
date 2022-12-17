@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ddc48c77-22d2-4dec-a679-02eace09eefe" version="1">
+	<Properties>
+		<Name>StrategicUpgrade</Name>
+		<Stability>Alfa</Stability>
+		<Description></Description>
+		<Authors>Slav</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	
+ 	<InGameActions>
+		<AddGameplayScripts id="StrategicUpgrade_Lua">
+			<File>StrategicUpgrade.lua</File>
+		</AddGameplayScripts>
+
+		<UpdateDatabase id="StrategicUpgrade_DB">
+			<Properties>
+				<LoadOrder>2000</LoadOrder>
+			</Properties>
+			<File>StrategicUpgrade.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+
+	<Files>
+		<File>StrategicUpgrade.sql</File>
+		<File>StrategicUpgrade.lua</File>
+	</Files>
+</Mod>
